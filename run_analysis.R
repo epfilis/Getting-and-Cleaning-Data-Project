@@ -50,7 +50,7 @@ for (i in 1:30) {
 
 colnames(tidydata)<-colnames(NewData2)
 levels(tidydata[,2])<-c('walking','walking_upstairs','walking_downstairs','sitting','standing','laying')
-write.table(tidydata,file='SamgsungGalaxy_data.txt', sep = " ")
+write.table(tidydata,file='SamsungGalaxy_data.txt', sep = " ")
 
 
 
